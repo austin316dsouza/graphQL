@@ -66,7 +66,7 @@ function DisplayData() {
             <input type="number" placeholder='1' onChange={(event)=> {setItemSearched(event.target.value)}}/>
             <button onClick={()=> {
                 fetchItem({variables: {
-                    id: Number(itemSearched)
+                    itemId: Number(itemSearched)
                 }})
             }}>Fetch Item</button>
             <div>
