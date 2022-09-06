@@ -3,19 +3,19 @@ const ItemList = [
         id:1,
         name:"dummy1",
         price:123,
-        category:"cat1",
+        category:"CAT1",
         subItems: [
             {
                 id:2,
                 name:"dummy2",
                 price:123,
-                category:"cat3"
+                category:"CAT3"
             },
             {
                 id:3,
                 name:"dummy3",
                 price:123,
-                category:"cat1"
+                category:"CAT1"
             }
         ],
     },
@@ -23,31 +23,31 @@ const ItemList = [
         id:2,
         name:"dummy2",
         price:123,
-        category:"cat3"
+        category:"CAT3"
     },
     {
         id:3,
         name:"dummy3",
         price:123,
-        category:"cat1"
+        category:"CAT1"
     },
     {
         id:4,
         name:"dummy4",
         price:123,
-        category:"cat2"
+        category:"CAT2"
     },
     {
         id:5,
         name:"dummy5",
         price:123,
-        category:"cat1"
+        category:"CAT1"
     },
     {
         id:6,
         name:"dummy6",
         price:123,
-        category:"cat2"
+        category:"CAT2"
     }
 ]
 

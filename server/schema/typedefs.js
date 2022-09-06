@@ -19,9 +19,9 @@ const typeDefs = gql`
         requirements:[Requirement!]
     }
     enum Category {
-        cat1
-        cat2
-        cat3
+        CAT1
+        CAT2
+        CAT3
     }
 
     #REQUIREMENTS
